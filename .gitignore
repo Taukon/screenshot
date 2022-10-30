@@ -1,0 +1,6 @@
+node_modules/
+build/
+
+cp*
+test*
+package-lock.json
