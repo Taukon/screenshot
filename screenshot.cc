@@ -6,8 +6,6 @@
 #include <stdlib.h>
 #include <jpeglib.h>
 
-// compile with: gcc -Wall -ansi -pedantic getbg.c -o getbg -lX11 -ljpeg
-// usage: ./getbg mybg.jpg
 
 char *getJpegImg(size_t *mem_size, Display *display)
 {
